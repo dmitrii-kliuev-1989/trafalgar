@@ -1,0 +1,68 @@
+@import "normalize.css";
+@import "header.css";
+@import "virtualHealthcare.css";
+@import "ourServices.css";
+@import "leadingHealthcareProviders.css";
+@import "downloadOurMobileApps.css";
+@import "testimonials.css";
+@import "ourLatestArticle.css";
+@import "footer.css";
+@import "variables.css";
+@import "font.css";
+
+.mainWrapper {
+    display: grid;
+    grid-template-areas:
+"header"
+"virtualHealthcare"
+"ourServices"
+"leadingHealthcareProviders"
+"downloadOurMobileApps"
+"testimonials"
+"ourLatestArticle"
+"footer";
+    width: 1600px;
+    /*max-width: 1600px;*/
+    /*width: 100%;*/
+    margin: 0 auto;
+}
+
+.btnSecondary {
+    width: 200px;
+    border: 1px solid var(--c-cornflower-blue);
+    box-sizing: border-box;
+    border-radius: 55px;
+
+    color: var(--c-cornflower-blue);
+    font-family: var(--f-bold);
+    font-size: 18px;
+    line-height: 55px;
+    background-color: var(--c-white);
+    cursor: pointer;
+}
+
+.commonTitle {
+    margin: 57px 0 0 0;
+    font-family: var(--f-bold);
+    font-size: 36px;
+    line-height: 56px;
+    color: var(--c-black);
+}
+
+.commonLine {
+    width: 56px;
+    height: 2px;
+    background-color: var(--c-black);
+    border-radius: 5px;
+    margin-top: 26px;
+}
+
+.commonDescription {
+    margin-top: 31px;
+    font-family: var(--f-reg);
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: var(--c-Topaz);
+}

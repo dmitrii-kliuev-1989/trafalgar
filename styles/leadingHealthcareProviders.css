@@ -1,0 +1,18 @@
+.leadingHealthcareProviders {
+    grid-area: leadingHealthcareProviders;
+    margin-top: 220px;
+    display: flex;
+}
+
+.trafalgar-illustration-sec02 {
+    height: 477px;
+    width: 650px;
+}
+
+.leadingHealthcareProviders__text {
+    margin-left: 142px;
+}
+
+.btnLeadingHealthcareProviders {
+    margin-top: 40px;
+}

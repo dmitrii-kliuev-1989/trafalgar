@@ -1,0 +1,48 @@
+.virtualHealthcare {
+    grid-area: virtualHealthcare;
+    display: flex;
+    background: url(../images/svg/element.svg) no-repeat top 63px left -50px;
+}
+
+.header__elementImage {
+    margin-top: 63px;
+}
+
+.virtualHealthcare__text {
+    padding: 190px 0 0 190px;
+}
+
+.virtualHealthcare__title {
+    font-family: var(--f-bold);
+    font-size: 48px;
+    line-height: 56px;
+    color: var(--c-black);
+}
+
+.virtualHealthcare__description {
+    padding-top: 25px;
+    color: var(--c-Topaz);
+    font-family: var(--f-reg);
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 32px;
+}
+
+.consultBtn {
+    margin-top: 48px;
+    background-color: var(--c-cornflower-blue);
+    color: var(--c-white);
+    border: none;
+    font-family: var(--f-bold);
+    font-size: 18px;
+    line-height: 60px;
+    border-radius: 55px;
+    width: 200px;
+    cursor: pointer;
+}
+
+.trafalgarHeaderIllustration {
+    margin: 84px 0 0 109px;
+    height: 598px;
+    width: 693px;
+}
