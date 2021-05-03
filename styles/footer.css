@@ -1,4 +1,97 @@
 .footer {
-    height: 100px;
-    background: lightgray;
+    margin-top: 129px;
+    background: url(../images/svg/element.svg) no-repeat top right 92px;
+}
+
+.footer__blueRectangle {
+    margin-top: 72px;
+    background: linear-gradient(183.41deg, var(--c-malibu) -8.57%, var(--c-persian-green) 82.96%);
+    position: relative;
+    display: flex;
+    padding: 118px 0 0 190px;
+    box-sizing: border-box;
+    height: 432px;
+}
+
+.footer__blueRectangle::after {
+    content: "";
+    background-image: url(../images/svg/element-light-footer.svg);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+}
+
+.footer__blueRectangleContent {
+    width: 1196px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__logo {
+    display: flex;
+    align-items: center;
+}
+
+.footer__letterT {
+    width: 41px;
+    height: 41px;
+    padding: 6px;
+    font-family: var(--f-bold);
+    font-size: 26px;
+    color: var(--c-cornflower-blue);
+    background-color: var(--c-white);
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.footer__trafalgar {
+    margin-left: 12px;
+    font-family: var(--f-bold);
+    font-size: 24px;
+    line-height: 30px;
+    color: var(--c-white);
+}
+
+.footer__descriptionText {
+    font-family: var(--f-light);
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: var(--c-white);
+    margin-top: 17px;
+}
+
+.footer__copyright {
+    font-family: var(--f-light);
+    font-size: 16px;
+    line-height: 28px;
+    color: var(--c-white);
+    margin-top: 31px;
+}
+
+.footer__title {
+    margin: 0;
+    font-family: var(--f-bold);
+    font-size: 20px;
+    line-height: 60px;
+    color: var(--c-white);
+}
+
+.footer__links {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__links a {
+    text-decoration: none;
+    font-family: var(--f-light);
+    font-size: 18px;
+    line-height: 38px;
+    color: var(--c-white);
 }
