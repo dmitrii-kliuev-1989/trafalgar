@@ -1,7 +1,6 @@
 .header {
     grid-area: header;
     display: flex;
-    justify-content: space-between;
 }
 
 .header__logo {
@@ -24,7 +23,7 @@
 }
 
 .header__trafalgar {
-    padding: 5px 0 0 12px;
+    padding: 6px 0 0 12px;
     font-family: var(--f-bold);
     font-style: normal;
     font-weight: bold;
@@ -33,22 +32,23 @@
     color: var(--c-cloud-burst);
 }
 
-.header__navigation {
-    width: 545px;
+.header__navbar {
+    margin-left: 513px;
+    width: 544px;
     padding-right: 191px;
     display: flex;
     justify-content: space-between;
-    margin-top: 70px;
+    margin-top: 71px;
 }
 
-.header_navigationLinkHome {
+.header_navLinkHome {
     font-family: var(--f-bold);
     font-size: 18px;
     text-decoration: none;
     color: var(--c-revolver);
 }
 
-.header_navigationLink {
+.header_navLink {
     font-family: var(--f-reg);
     font-size: 18px;
     text-decoration: none;

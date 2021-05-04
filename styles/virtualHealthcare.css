@@ -9,7 +9,7 @@
 }
 
 .virtualHealthcare__text {
-    padding: 190px 0 0 190px;
+    padding: 186px 0 0 190px;
 }
 
 .virtualHealthcare__title {
@@ -22,7 +22,7 @@
     padding-top: 25px;
     color: var(--c-Topaz);
     font-family: var(--f-reg);
-    font-weight: 300;
+    letter-spacing: -0.16px;
     font-size: 21px;
     line-height: 32px;
 }
@@ -34,14 +34,14 @@
     border: none;
     font-family: var(--f-bold);
     font-size: 18px;
-    line-height: 60px;
+    line-height: 54px;
     border-radius: 55px;
     width: 200px;
     cursor: pointer;
 }
 
 .trafalgarHeaderIllustration {
-    margin: 84px 0 0 109px;
+    margin: 80px 0 0 114px;
     height: 598px;
     width: 693px;
 }

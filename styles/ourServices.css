@@ -1,13 +1,12 @@
 .ourServices {
     grid-area: ourServices;
-    padding-top: 190px;
+    padding-top: 189px;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
 .ourServices__title {
-    padding-top: 2px;
     font-family: var(--f-bold);
     font-size: 36px;
     line-height: 56px;
@@ -21,15 +20,18 @@
 
 .ourServices__description {
     font-family: var(--f-reg);
-    margin-top: 38px;
+    margin-top: 33px;
+    font-weight: 300;
     color: var(--c-Topaz);
+    margin-left: -3px;
+    letter-spacing: -0.15px;
     text-align: center;
     font-size: 18px;
     line-height: 30px;
 }
 
 .ourServices__services {
-    background: url("../images/svg/our-services-cloud.svg") no-repeat top -167px left,
+    background: url("../images/svg/our-services-cloud.svg") no-repeat top -180px left,
     url("../images/svg/element.svg") no-repeat right 185px top 368px;
     display: flex;
     justify-content: center;
@@ -39,7 +41,7 @@
 .ourServices__servicesWrapper {
     display: flex;
     flex-wrap: wrap;
-    height: 775px;
+    height: 772px;
     width: 1120px;
     justify-content: space-between;
 }
@@ -55,8 +57,17 @@
 }
 
 .ourServices__serviceImage {
-    width: 92px;
+
+}
+
+.ourServices__serviceImage.search-doctor {
     height: 90px;
+    margin: 0 0 0 -2px;
+}
+
+.ourServices__serviceImage.online-pharmacy {
+    height: 85px;
+    margin: 9px 0 0 0;
 }
 
 .ourServices__serviceTitle {
