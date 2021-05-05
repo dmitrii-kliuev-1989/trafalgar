@@ -8,17 +8,17 @@
     margin-top: 63px;
 }
 
-.virtualHealthcare__info {
+.virtualHealthcareInfo__info {
     padding: 186px 0 0 190px;
 }
 
-.virtualHealthcare__infoTitle {
+.virtualHealthcareInfo__info-title {
     font-family: var(--f-bold);
     font-size: 48px;
     line-height: 56px;
 }
 
-.virtualHealthcare__infoDescription {
+.virtualHealthcareInfo__info-description {
     padding-top: 25px;
     color: var(--c-Topaz);
     font-family: var(--f-light);
@@ -26,7 +26,7 @@
     line-height: 32px;
 }
 
-.virtualHealthcare__infoButton {
+.virtualHealthcareInfo__info-button {
     margin-top: 48px;
     background-color: var(--c-cornflower-blue);
     color: var(--c-white);

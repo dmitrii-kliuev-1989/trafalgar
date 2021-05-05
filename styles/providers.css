@@ -1,5 +1,5 @@
 .providers {
-    grid-area: leadingHealthcareProviders;
+    grid-area: providers;
     margin: 221px 0 0 135px;
     display: flex;
     background: url(../images/svg/element.svg) no-repeat right -46px bottom;
@@ -17,14 +17,14 @@
     margin-left: 142px;
 }
 
-.providers__infoTitle {
+.providers__info-title {
     margin: 58px 0 0 0;
     font-family: var(--f-bold);
     font-size: 36px;
     line-height: 56px;
 }
 
-.providers__infoDescription {
+.providers__info-description {
     margin-top: 30px;
     font-family: var(--f-light);
     font-style: normal;
@@ -35,6 +35,6 @@
 }
 
 
-.providers__btnSecondary {
+.providers__info-btnSecondary {
     margin: 40px 0 0 -5px;
 }

@@ -1,5 +1,5 @@
 .articles {
-    grid-area: ourLatestArticle;
+    grid-area: articles;
     margin-top: 216px;
     display: flex;
     flex-direction: column;
@@ -14,24 +14,24 @@
     margin: 15px 0 7px 0;
 }
 
-.articles__articlesWrapper {
+.articles__wrapper {
     margin: 77px 0 0 0;
     display: flex;
     width: 1118px;
     justify-content: space-between;
 }
 
-.articles__image {
+.article__image {
     border-radius: 20px 20px 0 0;
 }
 
-.articles__article {
+.article {
     box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
     border-radius: 20px;
     background: white;
 }
 
-.articles__ArticleTitle {
+.article__title {
     margin: 21px 0 0 32px;
     font-family: var(--f-bold);
     font-style: normal;
@@ -40,7 +40,7 @@
     line-height: 32px;
 }
 
-.articles__articleDescription {
+.article__description {
     font-family: var(--f-light);
     font-size: 16px;
     line-height: 28px;
@@ -48,11 +48,11 @@
     margin: 12px 0 0 32px;
 }
 
-.articles__articleReadMore {
+.readMore {
     padding: 25px 0 35px 33px;
 }
 
-.articles__readMoreLink {
+.readMore__link {
     text-decoration: none;
     color: var(--c-picton-blue);
     font-family: var(--f-reg);
@@ -62,10 +62,10 @@
     line-height: 28px;
 }
 
-.articles__readMoreArrow {
+.readMore__link-arrow {
     margin-left: 10px;
 }
 
-.articles__button {
+.articles__btnSecondary {
     margin-top: 71px;
 }

@@ -58,11 +58,11 @@
     align-self: center;
 }
 
-.testimonials__user {
+.person {
     display: flex;
 }
 
-.testimonials__userImageWrapper {
+.person__imageWrapper {
     background-color: var(--c-white);
     width: 142px;
     height: 142px;
@@ -73,7 +73,7 @@
     margin: 66px 0 0 117px;
 }
 
-.testimonials__userImage {
+.person__image {
     background: url(../images/png/edward.png) no-repeat top -101px left -70px;
     background-size: 310px;
     width: 134px;
@@ -81,13 +81,13 @@
     border-radius: 50%;
 }
 
-.testimonials__info {
+.person__info {
     display: flex;
     flex-direction: column;
     margin: 97px 0 0 29px;
 }
 
-.testimonials__userName {
+.person__name {
     margin-top: 11px;
     font-family: var(--f-bold);
     font-weight: bold;
@@ -95,7 +95,7 @@
     color: var(--c-white);
 }
 
-.testimonials__userCompany {
+.person__company {
     margin-top: 10px;
     font-family: var(--f-reg);
     font-size: 18px;
@@ -118,14 +118,14 @@
     margin: 41px 0 0 2px;
 }
 
-.testimonials__navCircles {
+.testimonials__nav-circles {
     width: 94px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.circle {
+.testimonials__nav-circles img {
     width: 10px;
     height: 10px;
 }

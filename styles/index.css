@@ -2,10 +2,10 @@
 @import "header.css";
 @import "virtualHealthcare.css";
 @import "ourServices.css";
-@import "leadingHealthcareProviders.css";
-@import "downloadOurMobileApps.css";
+@import "providers.css";
+@import "app.css";
 @import "testimonials.css";
-@import "ourLatestArticle.css";
+@import "articles.css";
 @import "footer.css";
 @import "variables.css";
 @import "font.css";
@@ -16,14 +16,12 @@
 "header"
 "virtualHealthcare"
 "ourServices"
-"leadingHealthcareProviders"
-"downloadOurMobileApps"
+"providers"
+"app"
 "testimonials"
-"ourLatestArticle"
+"articles"
 "footer";
     width: 1600px;
-    /*max-width: 1600px;*/
-    /*width: 100%;*/
     margin: 0 auto;
 }
 

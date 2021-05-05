@@ -1,6 +1,6 @@
 .ourServices {
     grid-area: ourServices;
-    padding-top: 189px;
+    padding-top: 193px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -39,7 +39,7 @@
     grid-gap: 37px 34px;
 }
 
-.ourServices__item {
+.service {
     box-sizing: border-box;
     width: 350px;
     height: 354px;
@@ -49,13 +49,13 @@
     padding: 54px 0 0 36px;
 }
 
-.ourServices__itemTitle {
+.service__title {
     font-family: var(--f-bold);
     font-size: 24px;
     margin: 29px 0 13px 0px;
 }
 
-.ourServices__itemDescription {
+.service__description {
     font-family: var(--f-light);
     font-size: 16px;
     line-height: 28px;
