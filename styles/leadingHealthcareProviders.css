@@ -1,18 +1,40 @@
-.leadingHealthcareProviders {
+.providers {
     grid-area: leadingHealthcareProviders;
-    margin-top: 220px;
+    margin: 221px 0 0 135px;
     display: flex;
+    background: url(../images/svg/element.svg) no-repeat right -46px bottom;
+    padding-bottom: 103px;
 }
 
-.trafalgar-illustration-sec02 {
+.providers__illustration {
     height: 477px;
     width: 650px;
 }
 
-.leadingHealthcareProviders__text {
+.providers__info{
+    display: flex;
+    flex-direction: column;
     margin-left: 142px;
 }
 
-.btnLeadingHealthcareProviders {
-    margin-top: 40px;
+.providers__infoTitle {
+    margin: 58px 0 0 0;
+    font-family: var(--f-bold);
+    font-size: 36px;
+    line-height: 56px;
+}
+
+.providers__infoDescription {
+    margin-top: 30px;
+    font-family: var(--f-light);
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: var(--c-Topaz);
+}
+
+
+.providers__btnSecondary {
+    margin: 40px 0 0 -5px;
 }

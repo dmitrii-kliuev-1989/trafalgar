@@ -1,26 +1,39 @@
-.downloadOurMobileApps {
+.app {
     grid-area: downloadOurMobileApps;
-    padding-top: 265px;
-    padding-left: 280px;
+    padding: 117px 0 0 280px;
     display: flex;
-    background: url(../images/svg/element.svg) no-repeat right -50px top;
 }
 
-.trafalgar-illustration-sec03 {
+.app__infoTitle {
+    margin: 46px 0 29px 0;
+    font-family: var(--f-bold);
+    font-size: 36px;
+    line-height: 48px;
+}
+
+.app__infoDescription {
+    margin-top: 32px;
+    font-family: var(--f-light);
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: var(--c-Topaz);
+}
+
+
+.app__illustration {
     height: 434px;
     width: 665px;
-    margin-left: 71px;
+    margin: 9px 0 0 132px;
 }
 
-.download {
+.app__btnSecondary {
+    margin-top: 39px;
     display: flex;
     justify-content: center;
 }
 
-.arrowImg {
-    margin-left: 15px;
-}
-
-.btnDownloadOurMobileApps {
-    margin-top: 40px;
+.app__btnSecondaryArrow {
+    margin: 18px 0 0 15px;
 }

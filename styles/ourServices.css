@@ -19,73 +19,50 @@
 }
 
 .ourServices__description {
-    font-family: var(--f-reg);
-    margin-top: 33px;
+    font-family: var(--f-light);
+    margin-top: 32px;
     font-weight: 300;
     color: var(--c-Topaz);
     margin-left: -3px;
-    letter-spacing: -0.15px;
     text-align: center;
     font-size: 18px;
     line-height: 30px;
 }
 
 .ourServices__services {
-    background: url("../images/svg/our-services-cloud.svg") no-repeat top -180px left,
-    url("../images/svg/element.svg") no-repeat right 185px top 368px;
-    display: flex;
+    background: url("../images/svg/our-services-cloud.svg") no-repeat top -179px left,
+    url("../images/svg/element.svg") no-repeat right 190px top 367px;
     justify-content: center;
     padding-top: 80px;
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    grid-gap: 37px 34px;
 }
 
-.ourServices__servicesWrapper {
-    display: flex;
-    flex-wrap: wrap;
-    height: 772px;
-    width: 1120px;
-    justify-content: space-between;
-}
-
-.ourServices__service {
+.ourServices__item {
     box-sizing: border-box;
     width: 350px;
     height: 354px;
     background-color: var(--c-white);
     box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
     border-radius: 20px;
-    padding: 54px 0 0 39px;
+    padding: 54px 0 0 36px;
 }
 
-.ourServices__serviceImage {
-
-}
-
-.ourServices__serviceImage.search-doctor {
-    height: 90px;
-    margin: 0 0 0 -2px;
-}
-
-.ourServices__serviceImage.online-pharmacy {
-    height: 85px;
-    margin: 9px 0 0 0;
-}
-
-.ourServices__serviceTitle {
+.ourServices__itemTitle {
     font-family: var(--f-bold);
     font-size: 24px;
-    line-height: 56px;
-    margin: 22px 0 0 0;
+    margin: 29px 0 13px 0px;
 }
 
-.ourServices__serviceDescription {
-    margin-top: 1px;
-    font-family: var(--f-reg);
+.ourServices__itemDescription {
+    font-family: var(--f-light);
     font-size: 16px;
     line-height: 28px;
     color: var(--c-Topaz);
 }
 
-.btnOurServices {
-    margin-top: 40px;
+.ourServices__button {
+    margin-top: 72px;
     align-self: center;
 }

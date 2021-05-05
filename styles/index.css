@@ -36,32 +36,39 @@
     color: var(--c-cornflower-blue);
     font-family: var(--f-bold);
     font-size: 18px;
-    line-height: 55px;
+    line-height: 52px;
     background-color: var(--c-white);
     cursor: pointer;
 }
 
-.commonTitle {
-    margin: 57px 0 0 0;
-    font-family: var(--f-bold);
-    font-size: 36px;
-    line-height: 56px;
-}
-
-.commonLine {
+.line {
     width: 56px;
     height: 2px;
     background-color: black;
     border-radius: 5px;
-    margin-top: 25px;
+    margin-top: 26px;
 }
 
-.commonDescription {
-    margin-top: 31px;
-    font-family: var(--f-reg);
+.logo {
+    display: flex;
+}
+
+.letterT {
+    width: 41px;
+    height: 41px;
+    padding: 6px;
+    font-family: var(--f-bold);
+    font-size: 26px;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.trafalgar {
+    padding: 6px 0 0 12px;
+    font-family: var(--f-bold);
     font-style: normal;
-    font-weight: 300;
-    font-size: 18px;
+    font-weight: bold;
+    font-size: 24px;
     line-height: 30px;
-    color: var(--c-Topaz);
 }

@@ -1,6 +1,6 @@
 .footer {
-    margin-top: 129px;
-    background: url(../images/svg/element.svg) no-repeat top right 92px;
+    margin-top: 131px;
+    background: url(../images/svg/element.svg) no-repeat top right 91px;
 }
 
 .footer__blueRectangle {
@@ -28,32 +28,20 @@
 .footer__blueRectangleContent {
     width: 1196px;
     display: flex;
-    justify-content: space-between;
 }
 
 .footer__logo {
-    display: flex;
     align-items: center;
+    margin-left: 1px;
 }
 
 .footer__letterT {
-    width: 41px;
-    height: 41px;
-    padding: 6px;
-    font-family: var(--f-bold);
-    font-size: 26px;
     color: var(--c-cornflower-blue);
     background-color: var(--c-white);
-    box-sizing: border-box;
-    text-align: center;
-    border-radius: 50%;
 }
 
 .footer__trafalgar {
-    margin-left: 12px;
-    font-family: var(--f-bold);
-    font-size: 24px;
-    line-height: 30px;
+    margin-top: -5px;
     color: var(--c-white);
 }
 
@@ -75,17 +63,29 @@
     margin-top: 31px;
 }
 
+.footer__company {
+    margin-left: 159px;
+}
+
+.footer__region {
+    margin-left: 81px;
+}
+
+.footer__help {
+    margin-left: 142px;
+}
+
 .footer__title {
-    margin: 0;
+    margin: 11px 0 0 0;
     font-family: var(--f-bold);
     font-size: 20px;
-    line-height: 60px;
     color: var(--c-white);
 }
 
 .footer__links {
     display: flex;
     flex-direction: column;
+    margin-top: 19px;
 }
 
 .footer__links a {
