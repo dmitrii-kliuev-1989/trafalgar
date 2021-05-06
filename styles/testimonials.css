@@ -33,9 +33,11 @@
     background-repeat: no-repeat;
     background-position: top -15px right -48px;
     top: 0;
-    left: 0;
+    left: 1020px;
     bottom: 0;
     right: 0;
+    width: 100px;
+    height: 100px;
     position: absolute;
 }
 
