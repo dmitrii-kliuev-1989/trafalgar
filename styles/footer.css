@@ -1,4 +1,6 @@
 .footer {
+    min-width: 1600px;
+    grid-area: footer;
     margin-top: 131px;
     background: url(../images/svg/element.svg) no-repeat top right 91px;
 }
@@ -8,7 +10,9 @@
     background: linear-gradient(183.41deg, var(--c-malibu) -8.57%, var(--c-persian-green) 82.96%);
     position: relative;
     display: flex;
-    padding: 118px 0 0 190px;
+    justify-content: center;
+    padding: 118px 0 0 0;
+    margin-left: -48px;
     box-sizing: border-box;
     height: 432px;
 }
@@ -19,15 +23,11 @@
     background-repeat: no-repeat;
     background-position: bottom left;
     top: 0;
-    left: 0;
+    left: 48px;
     bottom: 0;
     right: 0;
     width: 120px;
     position: absolute;
-}
-
-.footer__blueRectangleContent {
-
 }
 
 .footer__logo {
